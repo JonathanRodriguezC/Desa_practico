@@ -1,0 +1,35 @@
+
+nav ul li{float: left;
+margin: 1% 2%;
+}
+nav{float: none; 
+}
+.logo img{width: 40%; height: auto;}
+.logo{float: none;
+text-align: center;}
+h1>a{text-decoration: none;
+    font-size: 28px;}
+.boton{width: 40%;}
+.grid{width: 95%;
+    float: left;}
+.testimonios h3{font-size: 25px;}  
+h3{font-size: 25px;
+}  
+.contenedor-slider img{width: 100%;
+    margin: 1px 0px 1px 0px;
+    margin-top: 1px;
+    }
+
+
+
+table#Tabla {overflow-x:scroll;
+display: block;
+margin-bottom: 100%;
+margin-left: 0.5%;
+margin-right: 0.5%;
+width: 100%;}
+
+#TituloT{font-size: 30px;
+    }
+
+    
