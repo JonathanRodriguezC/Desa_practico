@@ -1,0 +1,239 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+p{
+	text-align: justify;
+}
+
+
+.envoltorio{
+	overflow: hidden;
+	width:87%;
+	margin:0 auto;
+	
+}
+
+body{float: none;
+background-color: rgb(0, 184, 150) ;
+min-height: 100vh;
+}
+
+section{background-color: white;}
+
+.logo{float: left; }
+.logo img{width: 100%;}
+
+nav{float: right;
+}
+
+nav ul li{float: left;
+margin: 0px 2px 0px 2px;
+padding: 20px 4px 20px 4px;
+border: none;
+display: block;
+}
+
+header{background-color: rgba(50, 58, 69,1); 
+}
+
+
+nav ul li:hover{background-color: rgb(0, 184, 150);
+color: white;}
+
+nav ul li a{font-style: normal;
+	text-decoration: none;
+	color: white;
+font-size: 15PX;}
+
+.contenedor-slider img{width: 100%;
+margin: 1px 0px 1px 0px;
+
+}
+
+article.intro{background-color: rgb(0, 184, 150);	
+	color: white;
+	}
+.servicios{background-color: white;}
+
+h1>a{text-decoration: none;
+font-size: 40px;
+color: white;
+display: block;
+text-align: center;
+padding: 3.5% 0 1% 0;
+}
+
+.intro p{width: 95%;
+	font-size: 20px; margin: 15px 0;}
+	
+.boton{ width: 20%;
+background-color: rgb(0, 145, 116);
+color: white;
+text-decoration: none;
+text-align: center;
+margin: 50px auto;
+padding: 10px;
+display: block;}
+.grid{border: 0.1px solid rgba(48, 45, 45, 0.1);
+margin:3% 1.5%;
+width: 30%;
+height: auto;
+float: left;
+overflow: hidden;
+text-align: justify;position: static;}
+.grid img{width: 80%;
+display:block;
+margin: 5% auto;}
+.grid p{margin: 2% 8%;}
+
+div.grid:nth-child(2n-1){
+	box-shadow: 0px 7px 6px rgba(0, 0, 0, 0.3);
+	position:  relative ;
+	top: 5px;
+		
+}
+
+h3{font-size: 30px;
+text-align: center;
+color: rgb(54, 157, 138);}
+
+.botoncito{width: 20%;
+	background-color: rgb(0, 183, 152);
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	margin: 5% auto;
+	padding: 10px;
+	display: block;}
+hr{width: 90%;
+	display: block;
+	margin: 0px 5% 0px 5%;
+	border-color: rgba(109, 107, 107, 0.1);}
+
+.testimonios{background-color: rgb(237, 234, 229);}
+.testimonios h3{color: rgb(61, 59, 59);
+	font-size: 30px;
+	margin: 3.5% 0px 2.5% 0px;}
+	.testimonios p{margin: 1.5% 0;
+		width: 90%;
+		text-align: center;
+		text-align: justify;
+	}
+
+
+footer{background-color: rgb(50, 58, 69) ;
+color: white;
+padding: 0.8% 0 0.8% 1%;
+
+}
+
+/*ofertas*/
+table#Tabla { padding: 0;
+	margin:0;
+	border-collapse:collapse;
+	border: 1px solid black;
+	width: 90%;
+	font-size: 18px;
+	margin-top: 5%;
+	margin-bottom: 100%;
+	background-color: white;
+ }
+ #Tabla  td{ 
+	
+	border: 1px solid black;
+	padding-left: 1%;
+ }
+ #Tabla  td:nth-child(1),td:nth-child(2){ width: 35%;		
+ }
+ #Tabla  td:nth-child(3){ width: 10%;		
+ }
+#Tabla  td:nth-child(4){ text-align: center;	
+}
+
+
+ #Tabla  tr:nth-child(2n){background-color: rgb(201, 201, 201);}
+ #Tabla  tr:nth-child(1){background-color: black; color: white;
+text-align: center;}
+#TituloT{font-size: 40px;
+font-weight: bold;
+text-align: center;
+margin-top: 2%;}
+#seccion_Tabla{background-color: rgb(237, 234, 229)}
+
+td.btnapli { margin: 2%;
+padding:0;
+background-color:rgb(137, 146, 145) ;
+width: 95%;
+height: 95%;
+border-radius: 10% ;
+display: block;
+border: 5px solid black;}
+td.btnapli:hover { background-color:rgb(0, 183, 152) ;}
+.btnapli a{text-decoration: none;
+color: rgb(187, 245, 230);}
+video{margin:10% 2% 100%;
+	
+	text-align: center;
+	width: 100%;
+}
+
+#creado{
+	margin-top: 10px;
+}
+
+#form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0 auto;
+	width: 50%;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+	text-align: left;
+	width: 30%;
+}
+
+input,
+select {
+	width: 50%;
+	padding: 0px;
+	margin-bottom: 10px;
+	text-align: right;
+}
+
+input[type="radio"] {
+	margin-left: 10px;
+	width: auto;
+}
+
+input[type="submit"] {
+	width: auto;
+	margin-left: 30%;
+}
+
+
+
+
+
+#img1{
+	height: 200px;
+}
+
+/*footer{position: absolute;
+top:auto; width: 100%;}
+
+
+
+
+
