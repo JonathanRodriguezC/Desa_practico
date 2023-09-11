@@ -252,7 +252,8 @@ select {
 
 h1.Tf{text-align: center; 
 font-size: 2em;
-background-color: #caf3d4;}
+background-color: #caf3d4;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);}
 
 
 .botonn {
