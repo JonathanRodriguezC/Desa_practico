@@ -11,4 +11,6 @@ h3{font-size: 25px;
 .testimonios h3{font-size: 28px;}  
 table#Tabla {width: 100%;
 overflow: hidden;
-margin-left: 0.5%;}  
+margin-left: 0.5%;}
+
+#form{width: 90%;  background-color: rgb(171, 245, 204);}

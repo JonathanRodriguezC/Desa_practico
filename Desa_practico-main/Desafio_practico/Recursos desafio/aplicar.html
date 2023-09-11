@@ -30,87 +30,117 @@
 	</header>
 	<section>
 		<article class="intro">
-			<div class="envoltorio">
-				<div id="form">
-				<p>COLOCAR AQUI EL FORMULARIO DE APLICACION</p>
-				<form action="aplicar.php" method="post">
-					<label for="nombre">Nombre:</label>
-					<input type="text" id="nombre" name="nombre" required><br>
-					<p id="sp"></p>
-			
-					<label for="apellidos">Apellidos:</label>
-					<input type="text" id="apellidos" name="apellidos" required><br>
-					<p id="sp"></p>
-			
-					<label for="carnet">Carnet:</label>
-					<input type="text" id="carnet" name="carnet" required><br>
-					<p id="sp"></p>
-			
-					<label for="departamento">Departamento de Residencia:</label>
-					<select id="departamento" name="departamento">
-						<option value="Ahuachapán">Ahuachapán</option>
-						<option value="Cabañas">Cabañas</option>
-						<option value="Chalatenango">Chalatenango</option>
-						<option value="Cuscatlán">Cuscatlán</option>
-						<option value="La Libertad">La Libertad</option>
-						<option value="La Paz">La Paz</option>
-						<option value="La Unión">La Unión</option>
-						<option value="Morazán">Morazán</option>
-						<option value="San Miguel">San Miguel</option>
-						<option value="San Salvador">San Salvador</option>
-						<option value="San Vicente">San Vicente</option>
-						<option value="Santa Ana">Santa Ana</option>
-						<option value="Sonsonate">Sonsonate</option>
-						<option value="La Unión">La Unión</option>
-					</select><br>
-					<p id="sp"></p>
-			
-					<label for="edad">Edad:</label>
-					<input type="number" id="edad" name="edad" required><br>
-					<p id="sp"></p>
-			
-					<label>Género:</label>
-					<input type="radio" id="masculino" name="genero" value="Masculino" required>
-					<label for="masculino">Masculino</label>
-					<input type="radio" id="femenino" name="genero" value="Femenino" required>
-					<label for="femenino">Femenino</label><br>
-					<p id="sp"></p>
-			
-					<label for="fecha_nacimiento">Fecha de Nacimiento:</label>
-					<input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required><br>
-					<p id="sp"></p>
-			
-					<label for="telefono">Número de Teléfono:</label>
-					<input type="tel" id="telefono" name="telefono" required><br>
-					<p id="sp"></p>
-			
-					<label for="carrera">Carrera:</label>
-					<select id="carrera" name="carrera">
-						<option value="Técnico en Ingeniería en Computación">Técnico en Ingeniería en Computación</option>
-						<option value="Técnico en Ingeniería Electrónica">Técnico en Ingeniería Electrónica</option>
-						<option value="Ingeniería en Ciencias de la Computación">Ingeniería en Ciencias de la Computación</option>
-						<option value="Ingeniería Eléctrica">Ingeniería Eléctrica</option>
-						<option value="Ingeniería Industrial">Ingeniería Industrial</option>
-						<option value="Ingeniería Mecánica">Ingeniería Mecánica</option>
-						<option value="Licenciatura en Diseño Gráfico">Licenciatura en Diseño Gráfico</option>
-						<option value="Licenciatura en Turismo">Licenciatura en Turismo</option>
-					</select><br>
-					<p id="sp"></p>
-			
-					<label for="pretension_salarial">Pretensión Salarial:</label>
-					<input type="text" id="pretension_salarial" name="pretension_salarial"><br>
-					<p id="sp"></p>
-			
-					<input class="boton" type="submit" value="Enviar">
-					<p id="sp"></p>
-				</form>
+			<div class="envoltorio"id="form">
+				<div >
+					<p><h1 class="Tf">Formulario</h1></p>
+					<form action="aplicar.php" method="post" >
+						<div class="fm">
+							<label for="nombre">Nombre:</label>
+							<input type="text" id="nombre" name="nombre" required><br>
+							<p id="sp"></p>
+						</div>
+						<div class="fm">
+							<label for="apellidos">Apellidos:</label>
+							<input type="text" id="apellidos" name="apellidos" required><br>
+							<p id="sp"></p>
+						</div>
+						<div class="fm">
+							<label for="carnet">Carnet:</label>
+							<input type="text" id="carnet" name="carnet" required><br>
+							<p id="sp"></p>
+						</div>
+						
+						<div class="fm">
+							<label for="departamento">Departamento de Residencia:</label>
+							<select id="departamento" name="departamento">
+								<option value="Ahuachapán">Ahuachapán</option>
+								<option value="Cabañas">Cabañas</option>
+								<option value="Chalatenango">Chalatenango</option>
+								<option value="Cuscatlán">Cuscatlán</option>
+								<option value="La Libertad">La Libertad</option>
+								<option value="La Paz">La Paz</option>
+								<option value="La Unión">La Unión</option>
+								<option value="Morazán">Morazán</option>
+								<option value="San Miguel">San Miguel</option>
+								<option value="San Salvador">San Salvador</option>
+								<option value="San Vicente">San Vicente</option>
+								<option value="Santa Ana">Santa Ana</option>
+								<option value="Sonsonate">Sonsonate</option>
+								<option value="La Unión">La Unión</option>
+							</select><br>
+							<p id="sp"></p>
+						</div>
+						
+						<div class="fm">
+							<label for="edad">Edad:</label>
+							<input type="number" id="edad" name="edad" required><br>
+							<p id="sp"></p>
+						</div>
+						
+						<div class="fm" id="genero">
+							<label>Género:</label>
+							<div class="opcion1">							
+								<label for="masculino" >Masculino</label>
+								<input type="radio" id="masculino" name="genero" value="Masculino" required>
+							</div>	
+							<div class="opcion2">
+								<label for="femenino" >Femenino</label>
+								<input type="radio" id="femenino" name="genero" value="Femenino" required>
+							</div>					
+
+							
+							<p id="sp"></p>
+						</div>
+						<div class="fm">
+							<label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+							<input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required><br>
+							<p id="sp"></p>
+						</div>
+						
+						<div class="fm">
+							<label for="telefono">Número de Teléfono:</label>
+							<input type="tel" id="telefono" name="telefono" required><br>
+							<p id="sp"></p>
+						</div>
+						<div class="fm">
+							<label for="carrera">Carrera:</label>
+							<select id="carrera" name="carrera">
+								<option value="Técnico en Ingeniería en Computación">Técnico en Ingeniería en Computación</option>
+								<option value="Técnico en Ingeniería Electrónica">Técnico en Ingeniería Electrónica</option>
+								<option value="Ingeniería en Ciencias de la Computación">Ingeniería en Ciencias de la Computación</option>
+								<option value="Ingeniería Eléctrica">Ingeniería Eléctrica</option>
+								<option value="Ingeniería Industrial">Ingeniería Industrial</option>
+								<option value="Ingeniería Mecánica">Ingeniería Mecánica</option>
+								<option value="Licenciatura en Diseño Gráfico">Licenciatura en Diseño Gráfico</option>
+								<option value="Licenciatura en Turismo">Licenciatura en Turismo</option>
+							</select><p id="sp"></p><br>
+						</div>
+						
+						<div class="fm">
+							<label for="pretension_salarial">Pretensión Salarial:</label>
+							<input type="text" id="pretension_salarial" name="pretension_salarial"><br>
+							<p id="sp"></p>
+						</div>
+						
+							<input class="botonn" type="submit" value="Enviar">
+							<p id="sp"></p>
+						
+						
+						
+					</form>
+				</div>
 			</div>
-			</div>
+		
 		</article>
 		
 	</section>
 	<footer>
-		<p>Creado por: Colocar su nombre y numero de carnet</p>
+			<p id="creado">     Creado por: </p>
+			<p id="creado"></p>
+			<p>Jonathan Alexander Rodriguez Campos RC181256</p>
+			<p id="creado"></p>
+			<p>Oscar Alexander Bonilla Sorto BS111203</p>
+			<p id="creado"></p>
 	</footer>
 </body>
 </html>
